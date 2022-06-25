@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="header">Student Marks/Grade Calculator</h1>
+    <div class="body">
+        <table border="1" width="50-">
+            <tr>
+                <th>Subjects</th>
+                <th width="30-">Marks</th>
+                <th width="30-">SubWise Grade</th>
+            </tr>
+            <tr>
+                <td class="sub">Telugu</td>
+                <td class="marks"><input type="text" placeholder="Enter" id="tel"></td>
+                <td class="per" id="telPer">-</td>
+            </tr>
+            <tr>
+                <td class="sub">Hindi</td>
+                <td class="marks"><input type="text" placeholder="Enter" id="hin"></td>
+                <td class="per" id="hinPer">-</td>
+            </tr>
+
+            <tr>
+                <td class="sub">English</td>
+                <td class="marks"><input type="text" placeholder="Enter" id="eng"></td>
+                <td class="per" id="engPer">-</td>
+            </tr>
+
+            <tr>
+                <td class="sub">Maths</td>
+                <td class="marks"><input type="text" placeholder="Enter" id="mat"></td>
+                <td class="per" id="matPer">-</td>
+            </tr>
+            <tr>
+                <td class="sub"> Science</td>
+                <td class="marks"><input type="text" placeholder="Enter" id="sci"></td>
+                <td class="per" id="sciPer">-</td>
+            </tr>
+            <tr>
+                <td class="sub">Social</td>
+                <td class="marks"><input type="text" placeholder="Enter" id="soc"></td>
+                <td class="per" id="socPer">-</td>
+            </tr>
+            <tr class="total">
+                <th>
+                    Total
+                </th>
+                <th id="percentage">-</th>
+                <th id="grade" class="grade">-</th>
+            </tr>
+        </table>
+    </div>
+    <div class="per-mar">
+        <input class="btn" type="button" value="Submit" onclick="calc()">
+        <p id="showdata" class="data"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
