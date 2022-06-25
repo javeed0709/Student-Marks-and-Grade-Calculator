@@ -166,6 +166,6 @@ const calc = () => {
     document.getElementById('socPer').innerHTML = `${socGrades}`
 
 
-    document.getElementById('showdata').innerHTML = `You Score = ${totalMarks}/600 <br> Percentage = ${totalPer} <br> Grade = ${grades}`
+    document.getElementById('showdata').innerHTML = `You Score = ${totalMarks}/600 <br> Percentage = ${totalPer}% <br> Grade = ${grades}`
 
 }
